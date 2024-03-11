@@ -64,14 +64,17 @@ public class MainController implements Initializable {
 
     @FXML
     public void calcular(ActionEvent actionEvent) {
-
+        if (tfNombre.getText().isEmpty() || tfEdad.getText().isEmpty() || tfEstatura.getText().isEmpty() || tfPeso.getText().isEmpty()) {
+            lbCalculo.setText("Debes rellenar todos los campos.");
+            lbCalculo.setStyle("-fx-background-color: RED;");
+        } else {
         String nombreCliente = tfNombre.getText();
 
         Integer edad = Integer.parseInt(tfEdad.getText());
         Double estatura = Double.parseDouble(tfEstatura.getText());
         Double peso = Double.parseDouble(tfPeso.getText());
 
-        if ((edad > 0 && edad <= 100) && (estatura > 0.0 && estatura < 250.0)) {
+        if ((edad > 0 && edad <= 100) && (estatura > 0.0 && estatura < 250.0) && (peso > 0.0 && peso < 250.0)) {
 
             Double ger;
             Double get = 0.0;
@@ -108,10 +111,13 @@ public class MainController implements Initializable {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Error");
             alert.setHeaderText(null);
-            alert.setContentText("La edad debe ser un número positivo menor que 100. La estatura debe ser también positiva y menor a 250cm.");
+            alert.setContentText("La edad, la estatura y el peso deben ser positivas.");
             alert.showAndWait();
         }
+        }
     }
+
+
 
 
     @FXML

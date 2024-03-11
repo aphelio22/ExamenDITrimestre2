@@ -1,23 +1,23 @@
 
-h	java:S112‹"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¹ŠÚëâ1
-h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¹ŠÚëâ1
+h	java:S112‘"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú¾Óìâ1
+h	java:S112“"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8Ú¾Óìâ1
 L
-java:S3740+"/Provide the parametrized type for this generic.(ßçóµ8¹ŠÚëâ1
+java:S3740+"/Provide the parametrized type for this generic.(ßçóµ8Ú¾Óìâ1
 i
-java:S1192;"GDefine a constant instead of duplicating this literal "Activo" 3 times.(ä÷›øÿÿÿÿ8ºŠÚëâ1
+java:S1192;"GDefine a constant instead of duplicating this literal "Activo" 3 times.(ä÷›øÿÿÿÿ8Û¾Óìâ1
 k
-java:S1192;"IDefine a constant instead of duplicating this literal "Moderado" 3 times.(ä÷›øÿÿÿÿ8ºŠÚëâ1
+java:S1192;"IDefine a constant instead of duplicating this literal "Moderado" 3 times.(ä÷›øÿÿÿÿ8Û¾Óìâ1
 m
-java:S1192;"KDefine a constant instead of duplicating this literal "Sedentario" 3 times.(ä÷›øÿÿÿÿ8ºŠÚëâ1
+java:S1192;"KDefine a constant instead of duplicating this literal "Sedentario" 3 times.(ä÷›øÿÿÿÿ8Û¾Óìâ1
 m
-java:S1192;"KDefine a constant instead of duplicating this literal "Muy Activo" 3 times.(ä÷›øÿÿÿÿ8ºŠÚëâ1
+java:S1192;"KDefine a constant instead of duplicating this literal "Muy Activo" 3 times.(ä÷›øÿÿÿÿ8Û¾Óìâ1
 t
-java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‰©èÒøÿÿÿÿ8Ì‹Úëâ1
+java:S3776B"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(‰©èÒøÿÿÿÿ8÷¾Óìâ1
 h
-java:S2147Œ"ECombine this catch with the one at line 138, which has the same body.(Ù“Ş‘øÿÿÿÿ8Ó‹Úëâ1
+java:S2147’"ECombine this catch with the one at line 144, which has the same body.(Ù“Ş‘øÿÿÿÿ8ı¾Óìâ1
 X
-java:S6437y"6Revoke and change this password, as it is compromised.(é¬Š‚ùÿÿÿÿ8Ó‹Úëâ1
+java:S6437"6Revoke and change this password, as it is compromised.(é¬Š‚ùÿÿÿÿ8ş¾Óìâ1
 P
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ùéñëâ1
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8´àÕìâ1
 J
-java:S1068."-Remove this unused "grupoPeso" private field.(ŞÑ„8Ùéñëâ1
+java:S1068."-Remove this unused "grupoPeso" private field.(ŞÑ„8¿Óìâ1
