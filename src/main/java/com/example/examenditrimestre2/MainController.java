@@ -138,7 +138,7 @@ public class MainController implements Initializable {
 
             JRPdfExporter exp = new JRPdfExporter();
             exp.setExporterInput(new SimpleExporterInput(jasperPrint));
-            exp.setExporterOutput(new SimpleOutputStreamExporterOutput("pedido.pdf"));
+            exp.setExporterOutput(new SimpleOutputStreamExporterOutput("informeCLiente.pdf"));
             exp.setConfiguration(new SimplePdfExporterConfiguration());
             exp.exportReport();
         } catch (SQLException e) { //Manejo de excepciones.
