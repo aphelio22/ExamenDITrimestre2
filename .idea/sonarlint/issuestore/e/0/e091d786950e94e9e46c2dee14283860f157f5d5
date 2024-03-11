@@ -1,0 +1,19 @@
+
+h	java:S112Š"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍÊŸëâ1
+h	java:S112Œ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍÊŸëâ1
+L
+java:S3740"/Provide the parametrized type for this generic.(ßçóµ8µœÑêâ1
+i
+java:S11920"GDefine a constant instead of duplicating this literal "Activo" 3 times.(ä÷›øÿÿÿÿ8µœÑêâ1
+k
+java:S11920"IDefine a constant instead of duplicating this literal "Moderado" 3 times.(ä÷›øÿÿÿÿ8¶œÑêâ1
+m
+java:S11920"KDefine a constant instead of duplicating this literal "Sedentario" 3 times.(ä÷›øÿÿÿÿ8¶œÑêâ1
+m
+java:S11920"KDefine a constant instead of duplicating this literal "Muy Activo" 3 times.(ä÷›øÿÿÿÿ8¶œÑêâ1
+r	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¡öÒúÿÿÿÿ8ĞÊŸëâ1
+t
+java:S37767"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(‰©èÒøÿÿÿÿ8¸Ñêâ1
+G	java:S106j"+Replace this use of System.out by a logger.(ïç‘ 8ƒÌŸëâ1
+h
+java:S2147‹"ECombine this catch with the one at line 137, which has the same body.(Ù“Ş‘øÿÿÿÿ8ƒÌŸëâ1
