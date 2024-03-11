@@ -1,16 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.examenditrimestre2.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="955.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.examenditrimestre2.MainController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="534.0" prefWidth="955.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <children>
+                  <Label text="Nombre: ">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="tfNombre">
+                     <tooltip>
+                        <Tooltip height="20.0" text="Aquí debes introducir tu nombre" width="20.0" />
+                     </tooltip>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label text="Sexo:">
+                     <HBox.margin>
+                        <Insets right="10.0" top="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <VBox prefHeight="0.0" prefWidth="100.0">
+                     <children>
+                        <RadioButton fx:id="rbHombre" mnemonicParsing="false" text="Hombre">
+                           <VBox.margin>
+                              <Insets bottom="10.0" />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="10.0" top="10.0" />
+                           </padding>
+                           <tooltip>
+                              <Tooltip height="20.0" text="Aquí eliges sexo: hombre" width="20.0" />
+                           </tooltip>
+                        </RadioButton>
+                        <RadioButton fx:id="rbMujer" mnemonicParsing="false" text="Mujer">
+                           <tooltip>
+                              <Tooltip height="20.0" text="Aquí eliges sexo: mujer" width="20.0" />
+                           </tooltip>
+                        </RadioButton>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="178.0">
+               <children>
+                  <Label text="Peso:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <VBox>
+                     <HBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </HBox.margin>
+                     <children>
+                        <TextField fx:id="tfPeso" prefHeight="25.0" prefWidth="127.0">
+                           <tooltip>
+                              <Tooltip height="20.0" text="Aquí debes introducir tu peso" width="20.0" />
+                           </tooltip>
+                        </TextField>
+                     </children>
+                  </VBox>
+                  <Label text="KG">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="146.0">
+               <children>
+                  <Label text="Estatura:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="tfEstatura">
+                     <tooltip>
+                        <Tooltip height="20.0" text="Aquí pones tu estatura en cm" width="20.0" />
+                     </tooltip>
+                  </TextField>
+                  <Label text="CM">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="289.0">
+               <children>
+                  <Label text="Edad:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="tfEdad">
+                     <tooltip>
+                        <Tooltip height="20.0" text="Aquí pones tu edad" width="20.0" />
+                     </tooltip>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER">
+               <children>
+                  <Label text="Observaciones:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <TextArea prefHeight="59.0" prefWidth="167.0">
+                     <tooltip>
+                        <Tooltip height="20.0" text="Aquí pones las observaciones" width="20.0" />
+                     </tooltip>
+                  </TextArea>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="312.0">
+               <children>
+                  <Label text="Nivel de actividad:">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ChoiceBox fx:id="chbActividad" prefWidth="150.0">
+                     <tooltip>
+                        <Tooltip height="20.0" text="Aquí eliges el nivel de actividad" width="20.0" />
+                     </tooltip>
+                  </ChoiceBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#calcular" text="Guardar">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#descargar" text="Descargar">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="lbCalculo" />
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <VBox alignment="CENTER" prefHeight="101.0" prefWidth="955.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Calculadora de GER Y GET">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
